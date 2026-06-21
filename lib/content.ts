@@ -251,7 +251,7 @@ export const projects = [
   },
   {
     key: "sw",
-    images: ["/images/projects/sw1.jpg"],
+    images: ["/images/projects/sw1.JPG"],
     video: null as string | null,
     caseLabel: "CASE 04-C · CAD & Kinematics",
     idx: "P/03 · CAD",
