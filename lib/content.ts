@@ -291,7 +291,7 @@ export const academy = {
 
 // Photography gallery: /public/images/photos/photo1.jpg ... photo8.jpg
 export const photos = [
-  { n: 1, label: "Street", span: "tall", src: "/images/photos/photo1.jpg" },
+  { n: 1, label: "Structure", span: "tall", src: "/images/photos/photo1.jpg" },
   { n: 2, label: "Architecture", span: "wide", src: "/images/photos/photo2.jpg" },
   { n: 3, label: "Portrait", span: "", src: "/images/photos/photo3.jpg" },
   { n: 4, label: "Light", span: "", src: "/images/photos/photo4.jpg" },
