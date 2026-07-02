@@ -100,7 +100,7 @@ export default function ProjectSlider({
               alt={`${cap} ${current.n}`}
               fill
               sizes="(max-width: 860px) 100vw, 50vw"
-              className="object-contain bg-[#0a0b0d] saturate-[0.95] brightness-[0.96]"
+              className="object-contain bg-[#0d0f12] saturate-[0.95] brightness-[0.96]"
             />
           )}
           {current.type !== "video" && (
