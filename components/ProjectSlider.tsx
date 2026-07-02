@@ -17,12 +17,10 @@ export default function ProjectSlider({
   slug,
   images,
   video,
-  aspect,
 }: {
   slug: string;
   images: string[];
   video?: string | null;
-  aspect?: string;
 }) {
   // Build the slide list: photos first, then the optional video at the end.
   const slides: Slide[] = [];
@@ -70,7 +68,6 @@ export default function ProjectSlider({
       data-cursor="hov"
       onMouseEnter={() => (hovering.current = true)}
       onMouseLeave={() => (hovering.current = false)}
-      style={{ aspectRatio: aspect ?? "3 / 2" }}
       className="relative aspect-[3/2] overflow-hidden border border-line bg-[#0d0f12]"
     >
       <AnimatePresence initial={false} custom={dir}>
