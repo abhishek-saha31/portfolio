@@ -51,32 +51,40 @@ export const experience = [
       "Built consistent teaching quality and met each student where they were. (Detailed below.)",
     ],
   },
-  {
-    when: "Nov 2025 — Dec 2025",
-    role: "Industrial Attachment — Rancon",
-    org: "Rancon Auto Industries (RAIL) & Rancon Motor Bikes (RMBL)",
-    // List each Rancon photo with its REAL extension. Files go in /public/images/experience/
-    images: [
-      "/images/experience/rancon1.jpg",
-      "/images/experience/rancon2.jpg",
-      "/images/experience/rancon3.jpg",
-      "/images/experience/rancon4.jpg",
-      "/images/experience/rancon5.jpg",
-      "/images/experience/rancon6.jpg",
-      "/images/experience/rancon7.jpg",
-      "/images/experience/rancon8.jpg",
-      "/images/experience/rancon9.jpg",
-      "/images/experience/rancon10.jpg",
-    ],
+];
+
+// Industrial Attachment gets its own card, split into RAIL and RMBL columns
+export const industrialAttachment = {
+  when: "Nov 2025 — Dec 2025",
+  role: "Industrial Attachment",
+  images: [
+    "/images/experience/rancon1.jpg",
+    "/images/experience/rancon2.jpg",
+    "/images/experience/rancon3.jpg",
+    "/images/experience/rancon4.jpg",
+    "/images/experience/rancon5.jpg",
+    "/images/experience/rancon6.jpg",
+    "/images/experience/rancon7.jpg",
+    "/images/experience/rancon8.jpg",
+    "/images/experience/rancon9.jpg",
+    "/images/experience/rancon10.jpg",
+  ],
+  rail: {
+    org: "Rancon Auto Industries Limited (RAIL)",
     points: [
       "Analyzed the Mitsubishi Xpander assembly flow (task sequence, material handling, space constraints) and proposed merging the rear-axle assembly with the engine assembly to remove a bottleneck — cutting total process time by 33.89% and improving floor-space utilization by 10%.",
       "Identified and documented specific motion waste on the Xpander line, proposing targeted layout changes to improve operator efficiency.",
       "Improved the SOP for the JAC HFC1042 KD assembly line to match shop-floor reality, and built a structured tool list for faster, more consistent execution.",
-      "At RMBL: ran defect analysis with Pareto charts to isolate the vital-few defect types driving most rework and rejects, enabling focused corrective action.",
+    ],
+  },
+  rmbl: {
+    org: "Rancon Motor Bikes Limited (RMBL)",
+    points: [
+      "Ran defect analysis with Pareto charts to isolate the vital-few defect types driving most rework and rejects, enabling focused corrective action.",
       "Performed Process Capability Analysis (Cp/Cpk) on brake force for two high-demand Suzuki motorcycle models, evaluating performance against specification limits to drive quality decisions.",
     ],
   },
-];
+};
 
 export const research = {
   title:
