@@ -292,7 +292,7 @@ export const academy = {
 // Photography gallery: /public/images/photos/photo1.jpg ... photo8.jpg
 export const photos = [
   { n: 1, label: "Structure", span: "tall", src: "/images/photos/photo1.jpg" },
-  { n: 2, label: "Architecture", span: "wide", src: "/images/photos/photo2.jpg" },
+  { n: 2, label: "Mirror", span: "wide", src: "/images/photos/photo2.jpg" },
   { n: 3, label: "Portrait", span: "", src: "/images/photos/photo3.jpeg" },
   { n: 4, label: "First Light of City", span: "", src: "/images/photos/photo4.jpg" },
   { n: 5, label: "Landscape", span: "wide", src: "/images/photos/photo5.jpg" },
