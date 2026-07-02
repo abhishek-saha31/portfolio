@@ -236,6 +236,7 @@ export const projects = [
   {
     key: "iot",
     images: ["/images/projects/iot1.jpg", "/images/projects/iot2.jpeg"],
+    aspect: "3 / 4", // taller frame — this project's images are portrait posters
     video: null as string | null,
     caseLabel: "CASE 04-B · Industrial Safety & Sensing",
     idx: "P/02 · IoT & Sensing",

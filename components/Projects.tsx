@@ -61,7 +61,7 @@ export default function Projects() {
                 </div>
 
                 <div className="min-[861px]:sticky min-[861px]:top-24">
-                  <ProjectSlider slug={p.key} images={p.images} video={p.video} />
+                  <ProjectSlider slug={p.key} images={p.images} video={p.video} aspect={p.aspect} />
                 </div>
               </div>
             </div>
