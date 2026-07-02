@@ -18,7 +18,7 @@ export const profile = {
     { label: "Resume", href: "/cv.pdf" },
   ],
   // Web3Forms key for the contact form (get a free one at web3forms.com)
-  web3formsKey: "YOUR_WEB3FORMS_KEY",
+  web3formsKey: "2c79d294-cc35-4781-b873-6e83fd1e0220",
 };
 
 export const facets = [
